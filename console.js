@@ -1,6 +1,6 @@
 'use strict';
 
-const theword = require('theword.js');
+const theword = require('./theword.js');
 
 const io = require('socket.io-client');
 
