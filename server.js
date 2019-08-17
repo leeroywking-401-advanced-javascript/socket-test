@@ -1,7 +1,8 @@
 'use strict';
 
 // Create an instance of a socket server
-const io = require('socket.io')(3000);
+const port = process.env.PORT || 3000;
+const io = require('socket.io')(port);
 
 // allow connections
 io.on('connection', (socket) => {
