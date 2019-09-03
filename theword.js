@@ -1,5 +1,5 @@
 'use strict';
 
 module.exports = (theWord) => {
-  console.log("and nobody cares");
+  console.log("and somebody cares");
 };
